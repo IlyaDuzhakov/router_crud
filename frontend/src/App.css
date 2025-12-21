@@ -1,0 +1,264 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border-top: 8px solid #c6c3c3;
+  border-bottom: 8px solid #c6c3c3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.post-page {
+  max-width: 600px;
+  margin-left: 20px;
+  border: 8px solid #c6c3c3;
+}
+
+.create-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.btn-post {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(115, 115, 235);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.btn-post a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn-post:hover {
+    background-color: rgb(30, 189, 206);
+}
+
+.btn-post a:hover {
+    color: #000;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-top: 2px solid #bcbdbf;
+  border-bottom: 2px solid #bcbdbf;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.text-comment {
+  width: 500px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.name_time-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.comment {
+  color: yellowgreen;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.like-icon {
+  color: #1877f2;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.add-post {
+    max-width: 600px;
+    border: 8px solid #868686;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.post-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-publish {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(115, 115, 235);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  color: #fff;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.btn-publish:hover {
+    background-color: rgb(30, 189, 206);
+    color: #000;
+}
+
+.btn-close {
+    border: none;
+    background-color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.btn-close:hover {
+    color: #f90101;
+    font-weight: 800;
+    transform: scale(1.1);
+}
+
+.textarea {
+    margin: 20px;
+    height: 80px;
+    resize: none;
+    padding: 10px;
+}
+
+.menu-item {
+    color: #1877f2;
+    margin-right: 4px;
+}
+
+.post-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border: 8px solid #4d4d4d;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.change_delete-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    margin: 10px;
+}
+
+.change {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(115, 115, 235);
+  color: #fff;
+  font-weight: 700;
+}
+
+.save-change {
+     width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(115, 115, 235);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  color: #fff;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.save-change:hover {
+    background-color: rgb(30, 189, 206);
+    color: #000;
+}
+
+.delete {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(241, 4, 27);
+  color: #fff;
+  font-weight: 700;
+}
+
+.title {
+    margin-left: 30px;
+    color: #1e0268;
+    font-size: 40px;
+}
+
+.edit-wrapper {
+    border: 8px solid #868686;
+    max-width: 600px;
+}
+
+.edit {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-title {
+    color: #1e0268;
+    margin-left: 20px;
+}
+
+.author-wrapper {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+}
+
+.input-author {
+    width: 350px;
+    height: 25px;
+    margin: 0 auto;
+    border: 2px solid #f41fd7;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.label {
+    color: #0b4795;
+    font-weight: 700;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.post-time {
+    color: #f41fd7;
+    font-weight: 700;
+    text-align: center;
+}
