@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const PostsPage = ({posts, getPosts}) => {
       useEffect(() => {
     getPosts(); 
-  }, []);
+  }, [getPosts]);
 
   return (
     <div className='post-page'>

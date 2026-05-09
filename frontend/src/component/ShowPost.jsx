@@ -27,7 +27,7 @@ const ShowPost = ({ posts, URL, getPosts }) => {
     };
 
     fetchPost();
-  }, [id]);
+  }, [id, URL]);
 
   const deletePost = async () => {
     try {
