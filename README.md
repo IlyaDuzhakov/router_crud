@@ -47,3 +47,14 @@ Express
 Fetch API
 REST API
 
+Deployment
+
+Frontend deployed on Vercel
+
+Backend deployed on Render
+
+Live Demo:
+https://router-crud-2jpf.vercel.app
+
+Backend API:
+https://router-crud-ykg3.onrender.com
