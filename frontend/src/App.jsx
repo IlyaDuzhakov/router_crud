@@ -7,7 +7,7 @@ import ShowPost from "./component/ShowPost";
 import EditPost from "./component/EditPost";
 
 function App() {
-  const URL = "http://localhost:7070";
+  const URL = "https://router-crud-ykg3.onrender.com";
   const [posts, setPosts] = useState([]);
 
   const getPosts = async () => {
