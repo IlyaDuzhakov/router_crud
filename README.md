@@ -6,55 +6,88 @@ In the project directory, you can run:
 ### `npm start`
 ### `npm test`
 ### `npm run build`
+# React Posts CRUD App
 
-Project Description
+A React application for creating, viewing, editing, and deleting posts.  
+The project demonstrates working with HTTP requests, React Router, custom hooks, and backend integration.
 
-This project demonstrates working with HTTP requests using React and custom hooks.
+![Preview](./screenshots/posts-list.png)
 
-Backend
+## Features
 
-A server was created using Node.js and Express.
+- Create new posts
+- View list of posts
+- Open detailed post page
+- Edit existing posts
+- Delete posts
+- Handle loading state
+- Handle request errors
+- Work with a custom `useJsonFetch` hook
+- Connect frontend with backend API
 
-Implemented API endpoints for GET requests:
+## Tech Stack
 
-/loading — simulates a long loading request
-/data — returns successful response data
-/error — simulates a request with an error
+**Frontend**
 
-Frontend
+- React
+- React Router
+- Custom Hooks
+- Fetch API
+- JavaScript
+- CSS
 
-A custom React hook useJsonFetch was created to handle HTTP requests.
+**Backend**
 
-The hook allows:
+- Node.js
+- Express
+- REST API
 
-fetching data from the server
-handling loading state
-handling request errors
-displaying successful responses
+**Deployment**
 
-The application demonstrates how useJsonFetch works with:
+- Vercel
+- Render
 
-successful requests
-failed requests
-delayed loading responses
+## Architecture
 
-Technologies Used
+Frontend is deployed on Vercel.  
+Backend API is deployed on Render.
 
-React
-Custom Hooks
-Node.js
-Express
-Fetch API
-REST API
+The frontend sends HTTP requests to the backend API and displays the received data in the interface.
 
-Deployment
+## Live Demo
 
-Frontend deployed on Vercel
-
-Backend deployed on Render
-
-Live Demo:
+Frontend:  
 https://router-crud-2jpf.vercel.app
 
-Backend API:
+Backend API:  
 https://router-crud-ykg3.onrender.com
+
+## Screenshots
+
+### Empty posts list
+
+![Empty list](./screenshots/posts-empty.png)
+
+### Create post
+
+![Create post](./screenshots/create-post.png)
+
+### Posts list
+
+![Posts list](./screenshots/posts-list.png)
+
+### Post details
+
+![Post details](./screenshots/post-details.png)
+
+### Edit post
+
+![Edit post](./screenshots/edit-post.png)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/IlyaDuzhakov/router_crud.git
+
